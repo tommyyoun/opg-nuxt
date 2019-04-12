@@ -4,9 +4,9 @@
           <button type="button" class="btn btn-primary" data-toggle="offcanvas">Chapters</button>
         </p>
 
-        <slot></slot>
-        <slot></slot>
-        
+        <slot name="one"></slot>
+        <slot name="two"></slot>
+        <slot name="three"></slot>        
     </div>
 </template>
 

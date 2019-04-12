@@ -1,4 +1,4 @@
-<template>
+<template v-slot:two>
     <div>
             <h2 class="title">Chapter Contents</h2>
             <div>

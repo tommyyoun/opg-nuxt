@@ -1,4 +1,4 @@
-<template>
+<template v-slot:one>
      <div>
         <h1>Emergency Response</h1>
         <h2 class="title">Chapter Overview</h2>
