@@ -1,0 +1,377 @@
+/* Scss Document */
+/* CSS Document */
+/*-------------ROBOTO FONT------------------------ */
+@font-face {
+  font-family: "RobotoLight";
+  src: url("../fonts/Roboto-Light.ttf");
+}
+
+@font-face {
+  font-family: "RobotoItalic";
+  src: url("../fonts/Roboto-Italic.ttf");
+}
+
+@font-face {
+  font-family: "RobotoMedium";
+  src: url("../fonts/Roboto-Medium.ttf");
+}
+
+@font-face {
+  font-family: "RobotoRegular";
+  src: url("../fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "RobotoBold";
+  src: url("../fonts/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: "RobotoThin";
+  src: url("../fonts/Roboto-Thin.ttf");
+}
+
+@font-face {
+  font-family: "RobotoBlack";
+  src: url("../fonts/Roboto-Black.ttf");
+}
+
+/*====================Global Styling=====================*/
+.panel-group .panel-heading a:after {
+  content: '-';
+  position: absolute;
+  right: 6px;
+  top: -8px;
+  font-size: 30px;
+  color: #fff;
+  right: 6px;
+}
+
+.panel-group .panel-heading a.collapsed:after {
+  content: '+';
+  font-size: 20px;
+  top: -1px;
+}
+
+.search-container {
+  float: right;
+}
+
+input[type=text] {
+  padding: 6px;
+  margin-top: 10px;
+  font-size: 17px;
+  border: none;
+}
+
+.search-container button:hover {
+  background: #ccc;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: 'RobotoRegular', sans-serif;
+  font-size: 16px;
+  line-height: normal;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+.main li+li {
+  margin-top: 10px;
+}
+
+h1 {
+  margin-top: 0px;
+}
+
+h2.title {
+  background: #E2EBF4;
+  padding: 10px;
+  font-size: 28px;
+}
+
+h3.subTitle {
+  background: #efef;
+  padding: 10px;
+}
+
+a {
+  text-decoration: underline;
+}
+
+ul.noStyle {
+  list-style: none;
+}
+
+.title {
+  font-size: 32px;
+}
+
+.borderLeft {
+  border-left: 4px solid #00698F;
+}
+
+#navbar select {
+  color: #000;
+  margin-top: 20px;
+}
+
+.navbar-nav {
+  border-bottom: #00698F 8px solid;
+  margin-left: 25px;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 700;
+  height: auto;
+}
+
+.navbar-brand .logoText {
+  display: inline-block;
+  text-align: right;
+}
+
+.navbar-brand .logoText .title {
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.navbar-brand .logoText .subTitle {
+  font-size: 24px;
+  font-weight: 200;
+}
+
+.navbar-brand .logoImg {
+  height: 80px;
+  vertical-align: text-bottom;
+  margin-right: 40px;
+  display: inline-block;
+}
+
+.navBlue {
+  background: #3C78B4;
+  color: #fff;
+}
+
+.navBlue a {
+  color: #fff;
+}
+
+.navbar-nav li a {
+  padding-bottom: 0px;
+}
+
+.sidebar-offcanvas .list-group .title {
+  font-size: 31px;
+  color: #000;
+  border-bottom: 5px solid #3c78b4;
+  margin-bottom: 15px;
+}
+
+.sidebar-offcanvas .list-group .linkTitle {
+  font-size: 20px;
+  font-family: 'RobotoBlack', sans-serif;
+  background: #3c78b4;
+  color: #fff;
+  padding: 8px;
+  border-bottom: 2px solid #000;
+  margin-bottom: 5px;
+}
+
+.sidebar-offcanvas .list-group .list-group-item {
+  border: none;
+  background: #3c78B4;
+  color: #fff;
+  padding: 3px 10px;
+}
+
+.sidebar-offcanvas .panel {
+  margin-bottom: 0px;
+  border: 0px;
+}
+
+.sidebar-offcanvas .panel-group {
+  margin-bottom: 0px;
+}
+
+.sidebar-offcanvas .panel-group .panel {
+  border-radius: 0px;
+  width: 92%;
+  border: none;
+  box-shadow: none;
+}
+
+.sidebar-offcanvas .panel-default .panel-heading {
+  border-radius: 0px;
+  border: none;
+  background: #3c78B4;
+  color: #fff;
+  border-top: 2px solid #000;
+  margin-bottom: 5px;
+  padding: 3px 0px;
+  text-decoration: none;
+}
+
+.sidebar-offcanvas .panel-default .panel-collapse {
+  border: none;
+  width: 95%;
+}
+
+.sidebar-offcanvas .panel-default .panel-body {
+  border: 0px !important;
+  padding: 5px;
+  font-size: 13px;
+}
+
+.sidebar-offcanvas .panel-default .panel-body ul {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.sidebar-offcanvas .panel-default .panel-body ul li {
+  background: #3c78B4;
+  color: #fff;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.sidebar-offcanvas .panel-default .panel-body ul li a {
+  color: #fff;
+}
+
+.updatesContainer {
+  background: #E2EBF4;
+  border-left: 4px solid #808080;
+  color: #333;
+  padding: 10px 20px;
+}
+
+.updatesContainer .updates {
+  background: #fff;
+  color: #333;
+}
+
+.updatesContainer .updates a {
+  color: #333;
+}
+
+.updatesContainer .updates ul {
+  padding-left: 5px;
+}
+
+.updatesContainer .updates li {
+  list-style: none;
+  padding-bottom: 10px;
+}
+
+.updatesContainer .updates li:first-child {
+  padding-top: 10px;
+}
+
+/*Tools Section Styling*/
+.toolsContainer {
+  border: 4px solid #3C78B4;
+  padding: 20px 33px;
+  margin-top: 40px;
+  border-left: 44px solid #3C78B4;
+}
+
+.toolsContainer ul {
+  padding-left: 18px;
+}
+
+.toolsContainer ul li {
+  margin-bottom: 15px;
+}
+
+/*Three Column Image*/
+.threeColImage {
+  text-align: center;
+  margin-top: 70px;
+}
+
+/*footer Styling*/
+footer {
+  background: #3C78B4;
+  color: #fff;
+  text-align: center;
+  margin-top: 90px;
+}
+
+footer a {
+  color: #fff;
+}
+
+/*Media Querries*/
+@media screen and (max-width: 767px) {
+  .main {
+    margin-bottom: 80px;
+  }
+
+  .nav.navbar-nav {
+    float: none !important;
+    border-bottom: none;
+    margin: 5px 0px;
+  }
+
+  .nav.navbar-nav li {
+    float: left;
+  }
+
+  .nav.navbar-nav li a {
+    padding: 5px 10px;
+  }
+
+  .navbar-toggle .icon-bar {
+    background: #fff;
+  }
+
+  .navbar-brand {
+    padding: 12px 15px 2px;
+  }
+
+  .navbar-brand .logoImg {
+    margin-right: 5px;
+    height: 25px;
+  }
+
+  .navbar-brand .logoImg img {
+    height: 40px;
+  }
+
+  .navbar-brand .logoText {
+    vertical-align: top;
+  }
+
+  .navbar-brand .logoText .title {
+    font-size: 24px;
+    margin-bottom: 5px;
+  }
+
+  .navbar-brand .logoText .subTitle {
+    font-size: 16px;
+  }
+
+  .threeColImage .col-xs-12 {
+    margin-bottom: 40px;
+  }
+
+  footer {
+    bottom: 0px;
+    position: fixed;
+    padding: 10px 0px;
+    margin-top: 0px;
+    font-size: 12px;
+    width: 100%;
+  }
+
+  footer .container p:last-child {
+    margin-bottom: 0px;
+  }
+}
