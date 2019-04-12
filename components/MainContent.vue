@@ -7,6 +7,7 @@
         <slot name="one"></slot>
         <slot name="two"></slot>
         <slot name="three"></slot>        
+        <slot name="four"></slot>        
     </div>
 </template>
 
