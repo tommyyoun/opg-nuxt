@@ -1,8 +1,10 @@
-<template>
+<template v-slot:three>
     <div class="article-wrap">
       <h2 class="article-heading title">Article Title</h2>
-      <h4 class="article-subheading">Article subheading</h4>
-      <div class="article-content img-left">
+      <h3 class="article-subheading subTitle">Article subheading</h3>
+
+      <div class="article-content">
+
         <article class="article-text">
           Chase pillage sheet Sink me fathom scuttle parrel yo-ho-ho league keelhaul. Wherry ho chandler provost six
           pounders pink code of conduct Davy Jones' Locker swab line. Execution dock Letter of Marque bilge rat hang the
@@ -25,6 +27,7 @@
             <figcaption class="caption">An image of Bill Murray</figcaption>
           </figure>
         </aside>
+
       </div>
 
     </div>
@@ -52,7 +55,7 @@
 }
 .article-content {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 .article-content figure {
     margin-top: 1.5em;
@@ -80,6 +83,17 @@
 }
 .caption {
     font-style: italic;
+}
+@media only screen and (max-width: 500px) {
+    .article-content {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 2em;
+    }
+    .article-image {
+        text-align: center;
+    }
+    
 }
 
 </style>
