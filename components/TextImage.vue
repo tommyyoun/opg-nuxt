@@ -1,7 +1,8 @@
-<template v-slot:three>
+<template>
     <div class="article-wrap">
-      <h2 class="article-heading">Article Title</h2>
-      <div class="article-content">
+      <h2 class="article-heading title">Article Title</h2>
+      <h4 class="article-subheading">Article subheading</h4>
+      <div class="article-content img-left">
         <article class="article-text">
           Chase pillage sheet Sink me fathom scuttle parrel yo-ho-ho league keelhaul. Wherry ho chandler provost six
           pounders pink code of conduct Davy Jones' Locker swab line. Execution dock Letter of Marque bilge rat hang the
@@ -35,26 +36,47 @@
 
 <style>
 .article-image img {
-    min-width: 15vw;    
+    min-width: 250px;    
     max-width: 25vw;
 }
 .article-text {
     padding: 1em 1.5em ;
+    line-height: 1.6em
 }
 .article-heading {
-    grid-area: heading;
     text-align:left
+}
+.article-subheading {
+    text-align:left;
+    padding-left: 1.5em;
 }
 .article-content {
     display: flex;
+    flex-wrap: wrap;
+}
+.article-content figure {
+    margin-top: 1.5em;
+}
+.img-left {
+    flex-direction: row-reverse;
 }
 .img-bottom {
     flex-direction: column;
+}
+.img-bottom figure {
+    margin-left: 1.5em;
+}
+.img-top {
+    flex-direction: column-reverse;
+}
+.img-top figure {
+    margin-left: 1em;
 }
 .article-wrap {
     position: relative;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 .caption {
     font-style: italic;
