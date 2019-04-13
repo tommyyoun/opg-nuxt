@@ -8,10 +8,14 @@
         <slot name="two"></slot>
         <slot name="three"></slot>        
         <slot name="four"></slot>        
+        <slot name="five"></slot>        
     </div>
 </template>
 
 <script>
+  export default {
+    
+  }
     
 </script>
 

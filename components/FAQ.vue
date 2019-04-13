@@ -1,6 +1,8 @@
 <template>
-    <div>
-        <ul>
+    <div class="FAQ-wrap">
+         <h2 class="title">Frequently Asked Questions:</h2>
+
+        <ul class="question-list">
             <li>
                 <p class="question">
                     Question: What time is it?
@@ -18,6 +20,6 @@
     
 </script>
 
-<style scoped>
+<style>
 
 </style>

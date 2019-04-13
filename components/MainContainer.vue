@@ -7,6 +7,7 @@
                 <ChContent slot="two"/>
                 <TextImage slot="three"/>
                 <DocHistory slot="four"/>
+                <FAQ slot="five"/>
             </MainContent>
         </div>
     </div>
@@ -19,6 +20,7 @@ import ChOverview from '~/components/ChOverview.vue'
 import ChContent from '~/components/ChContent.vue'
 import TextImage from '~/components/TextImage.vue'
 import DocHistory from '~/components/DocHistory.vue'
+import FAQ from '~/components/FAQ.vue'
 
 export default {
     components: {
@@ -27,7 +29,8 @@ export default {
     ChOverview,
     ChContent,
     TextImage,
-    DocHistory
+    DocHistory,
+    FAQ
   }
     
 }
