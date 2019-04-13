@@ -8130,10 +8130,10 @@ button.close {
   width: device-width
 }
 
-body,
+/* body,
 html {
   overflow-x: hidden
-}
+} */
 
 body {
   padding-top: 70px
