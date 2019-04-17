@@ -5,7 +5,15 @@
 
          <h3 class="question-set-label">Question Set Label - To label related sets of questions</h3>
 
-        <ul class="question-list">
+         <!-- ul element accepts 4 classes for different Font Sizes 
+
+                .question-list-sm,                   
+                .question-list-reg 
+                .question-list-lrg 
+                .question-list-xlrg         
+         -->
+
+        <ul class="question-list-sm">
 
             <li class="list-item">
 
@@ -50,10 +58,27 @@
     </div>
 </template>
 
+<script>
+export default {
+    
+}
+</script>
+
 <style>
-.question-list {
+/* FAQ FONT SIZE CLASSES */
+.question-list-sm {
+    font-size: 1rem;
+}
+.question-list-reg {
     font-size: 1.35rem;
 }
+.question-list-lrg {
+    font-size: 1.5rem;
+}
+.question-list-xlrg {
+    font-size: 2rem;
+}
+/* END OF FAQ FONT-SIZE CLASSES */
 .list-item {
     display: flex;
     flex-direction: row;
@@ -91,7 +116,6 @@
 }
 .row-label {
     padding: 0rem 1.25rem;
-    font-size:1.35rem;
 }
 .question-set-label {
     margin: .75rem 1.75rem;
