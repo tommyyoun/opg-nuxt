@@ -8130,10 +8130,10 @@ button.close {
   width: device-width
 }
 
-/* body,
+body,
 html {
   overflow-x: hidden
-} */
+}
 
 body {
   padding-top: 70px
@@ -8691,34 +8691,75 @@ html {
   .doc-list li:nth-child(2n) {
     background-color: #0ff
   }
-  #backtop {
-    position: fixed;
-    left: auto;
-    right: 20px;
-    top: auto;
-    bottom: 20px;
-    outline: none;
-    overflow: hidden;
-    color: #fff;
-    text-align: center;
-    background-color: rgba(154, 205, 50, 0.84);
-    height: 40px;
-    width: 40px;
-    line-height: 40px;
-    font-size: 14px;
-    border-radius: 2px;
-    cursor: pointer;
-    transition: all 0.3s linear;
-    z-index: 999999;
-
-    opacity: 1;
-    /* display: none; */
- }
-
- #backtop:hover {
-    background-color: #9ACD32;
- }
-
- #backtop.mcOut {
-    opacity: 0;
- }
+  
+  .question-list-sm {
+    font-size: 1rem
+  }
+  
+  .question-list-reg {
+    font-size: 1.35rem
+  }
+  
+  .question-list-lrg {
+    font-size: 1.5rem
+  }
+  
+  .question-list-xlrg {
+    font-size: 2rem
+  }
+  
+  .list-item {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start
+  }
+  
+  .question-icon {
+    position: relative;
+    right: 1.25rem;
+    justify-content: center;
+    padding-right: 1rem;
+    color: #404346
+  }
+  
+  .question-icon,
+  .question-wrap {
+    display: flex;
+    flex-direction: column
+  }
+  
+  .question-wrap {
+    width: 100%
+  }
+  
+  .question-wrap .row {
+    display: flex;
+    flex-direction: row;
+    padding: .5rem 0;
+    width: 100%
+  }
+  
+  .question {
+    color: #e60718;
+    background-color: #f9f6f1
+  }
+  
+  .answer,
+  .question {
+    border-left: 5px solid
+  }
+  
+  .answer {
+    color: #9b9b9b;
+    background-color: azure
+  }
+  
+  .row-label {
+    padding: 0 1.25rem
+  }
+  
+  .question-set-label {
+    margin: .75rem 1.75rem;
+    font-style: italic
+  }
+  
