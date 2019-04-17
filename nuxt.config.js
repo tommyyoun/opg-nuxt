@@ -1,18 +1,8 @@
 import pkg from './package'
+import { defer } from 'q';
 
 export default {
   mode: 'universal',
-
-  /*
-  ** Headers of the page
-
-  <script src="js/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
-  <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-  <script src="js/ie10-viewport-bug-workaround.js"></script>
-  <script src="js/offcanvas.js"></script>
-
-  */
   head: {
     meta: [
       { charset: 'utf-8' },
@@ -20,10 +10,10 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: "" },
       { name: 'author', content:""  }
-    ],
+    ], 
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
     
   },
 
@@ -58,7 +48,7 @@ export default {
     /*
     ** You can extend webpack config here
     */
-    extractCSS: true,
+    extractCSS: false,
     extend(config, ctx) {
     }
   }
