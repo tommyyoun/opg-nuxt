@@ -8668,12 +8668,19 @@ html {
   
   .doc-row-wrapper {
     display: flex;
-    justify-content: space-between;
-    font-style: italic
+    justify-content: flex-start;
+    font-style: italic;
+    flex-wrap: wrap
   }
   
   .doc-list {
     list-style-type: none
+  }
+  
+  .doc-name,
+  .doc-name+div,
+  .update-time {
+    margin-right: 1.5rem
   }
   
   .update-time {
@@ -8681,7 +8688,8 @@ html {
   }
   
   .update-note {
-    color: #32cd32
+    color: #228b22;
+    max-width: 50%
   }
   
   .doc-list li {
@@ -8690,6 +8698,28 @@ html {
   
   .doc-list li:nth-child(2n) {
     background-color: #0ff
+  }
+  
+  @media only screen and (max-width:576px) {
+    .doc-row-wrapper {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      font-style: italic;
+      margin-right: 2rem
+    }
+  
+    .doc-name {
+      border-top: 1px dashed #000;
+      padding-top: .5rem
+    }
+  
+    .update-note {
+      max-width: 100%;
+      padding-bottom: .5rem;
+      border-bottom: 1px dashed #000
+    }
   }
   
   .question-list-sm {
