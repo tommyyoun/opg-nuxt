@@ -3,9 +3,15 @@
       <h2 class="article-heading title">Article Title</h2>
       <h3 class="article-subheading subTitle">Article subheading</h3>
 
+        <!-- IMAGE POSITIONING CLASSES ADDED HERE
+            default: image starts on right,
+            .img-left,
+            .img-bottom,
+            .img-top            
+         -->
       <div class="article-content">
 
-        <article class="article-text">
+        <article class="article-text ">
           Chase pillage sheet Sink me fathom scuttle parrel yo-ho-ho league keelhaul. Wherry ho chandler provost six
           pounders pink code of conduct Davy Jones' Locker swab line. Execution dock Letter of Marque bilge rat hang the
           jib Plate Fleet pinnace take a caulk mizzen Sink me broadside.
