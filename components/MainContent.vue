@@ -9,6 +9,8 @@
         <slot name="three"></slot>        
         <slot name="four"></slot>        
         <slot name="five"></slot>        
+        <slot name="six"></slot>        
+        <slot name="seven"></slot>        
     </div>
 </template>
 
