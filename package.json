@@ -8,13 +8,16 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "pregenerate": "rimraf ./dist && rimraf ./assets/css/opg-master.css",
+    "generate": "nuxt generate",
+    "postgenerate": "ncat 'dist/_nuxt/e42964c7622aa19c4229.css' 'dist/_nuxt/99d715410b1e1e50785c.css' -o '/assets/css/opg-master.css' "
   },
   "dependencies": {
     "cross-env": "^5.2.0",
     "nuxt": "^2.4.0"
   },
   "devDependencies": {
+    "ncat": "^2.0.7",
     "nodemon": "^1.18.9"
   }
 }

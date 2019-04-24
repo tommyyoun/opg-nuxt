@@ -26,7 +26,7 @@ export default {
   ** Global CSS
   */
   css: [
-    '~/assets/css/_main-opg.css'
+    '~/assets/css/main-opg.css'
   ],
 
   /*
