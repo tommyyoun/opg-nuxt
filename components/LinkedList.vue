@@ -28,7 +28,6 @@
   .links-indicator {
     border-left: 3px solid #3C78B4;
   }
-
   .list-wrapper {
     position: relative;
   }
@@ -38,5 +37,7 @@
   .numbered {
     list-style-type: decimal;
   }
-
+  .alpha {
+    list-style-type: upper-alpha;
+  }
 </style>
