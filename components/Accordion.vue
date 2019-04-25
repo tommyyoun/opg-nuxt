@@ -65,12 +65,14 @@
   }
 }
 a[aria-expanded~="true"] svg {
+  font-size: 24px;
   animation-name: open-accordion;
   animation-duration: 200ms;
   animation-timing-function: ease-in-out;
   transform: rotate(90deg);
 }
 a[aria-expanded~="false"] svg {
+  font-size: 24px;
   animation-name: close-accordion;
   animation-duration: 200ms;
   animation-timing-function: ease-in-out;
