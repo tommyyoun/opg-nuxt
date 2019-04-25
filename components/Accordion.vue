@@ -76,5 +76,8 @@ a[aria-expanded~="false"] svg {
   animation-timing-function: ease-in-out;
   transform: rotate(0deg);
 }
+.panel-group {
+  margin-top: 2rem;
+}
 
 </style>
