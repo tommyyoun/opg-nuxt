@@ -45,6 +45,9 @@ export default {
   ** Build configuration
   */
   build: {
+    filenames: {
+      css: ({ isDev }) => isDev ? '[name].css' : '[name].css'
+    },
     /*
     ** You can extend webpack config here
     */
