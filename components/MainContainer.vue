@@ -10,6 +10,7 @@
                 <FAQ slot="five"/>
                 <LinkedList slot="six"/>
                 <Accordion slot="seven"/>
+                <VideoEmbed slot="eight"/>
             </MainContent>
         </div>
     </div>
@@ -26,6 +27,7 @@ import DocHistory from '~/components/DocHistory.vue'
 import FAQ from '~/components/FAQ.vue'
 import LinkedList from '~/components/LinkedList.vue'
 import Accordion from '~/components/Accordion.vue'
+import VideoEmbed from '~/components/VideoEmbed.vue'
 
 export default {
     components: {
@@ -37,7 +39,8 @@ export default {
     DocHistory,
     FAQ,
     LinkedList,
-    Accordion
+    Accordion,
+    VideoEmbed
   }
     
 }
