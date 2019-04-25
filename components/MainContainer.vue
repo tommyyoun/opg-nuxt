@@ -11,6 +11,7 @@
                 <LinkedList slot="six"/>
                 <Accordion slot="seven"/>
                 <ResTable slot="eight"/>
+                <VideoEmbed slot="nine"/>
             </MainContent>
         </div>
     </div>
@@ -28,6 +29,7 @@ import FAQ from '~/components/FAQ.vue'
 import LinkedList from '~/components/LinkedList.vue'
 import Accordion from '~/components/Accordion.vue'
 import ResTable from '~/components/ResTable.vue'
+import VideoEmbed from '~/components/VideoEmbed.vue'
 
 export default {
     components: {
@@ -40,7 +42,8 @@ export default {
     FAQ,
     LinkedList,
     Accordion,
-    ResTable
+    ResTable,
+    VideoEmbed
   }
     
 }
