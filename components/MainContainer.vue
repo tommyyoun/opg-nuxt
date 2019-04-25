@@ -10,7 +10,7 @@
                 <FAQ slot="five"/>
                 <LinkedList slot="six"/>
                 <Accordion slot="seven"/>
-                <VideoEmbed slot="eight"/>
+                <ResTable slot="eight"/>
             </MainContent>
         </div>
     </div>
@@ -27,7 +27,7 @@ import DocHistory from '~/components/DocHistory.vue'
 import FAQ from '~/components/FAQ.vue'
 import LinkedList from '~/components/LinkedList.vue'
 import Accordion from '~/components/Accordion.vue'
-import VideoEmbed from '~/components/VideoEmbed.vue'
+import ResTable from '~/components/ResTable.vue'
 
 export default {
     components: {
@@ -40,7 +40,7 @@ export default {
     FAQ,
     LinkedList,
     Accordion,
-    VideoEmbed
+    ResTable
   }
     
 }
