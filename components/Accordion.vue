@@ -1,7 +1,7 @@
 <template>
          
           <!---=====================Chapter One Accordion Group==============================--->
-          <div class="panel-group" id="accordionMenu" role="tablist" aria-multiselectable="true">
+          <div class="panel-group acc-panel-group" id="accordionMenu" role="tablist" aria-multiselectable="true">
             <div class="panel panel-default">
                   <a role="button" data-toggle="collapse" data-parent="#accordionMenu" href="#collapseID"
                     aria-expanded="false" aria-controls="collapseID" class="collapsed">
@@ -76,7 +76,7 @@ a[aria-expanded~="false"] svg {
   animation-timing-function: ease-in-out;
   transform: rotate(0deg);
 }
-.panel-group {
+.acc-panel-group {
   margin-top: 2rem;
 }
 
