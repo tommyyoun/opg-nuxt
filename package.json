@@ -10,7 +10,7 @@
     "start": "nuxt start",
     "pregenerate": "rimraf ./dist && rimraf ./assets/css/opg-master.css",
     "generate": "nuxt generate",
-    "postgenerate": "vcat -s dist/_nuxt/app.css dist/_nuxt/pages_index.css  -o assets/css/opg-master.css"
+    "postgenerate": "vcat -s dist/_nuxt/app.css dist/_nuxt/pages_index.css  -o assets/css/opg-master.min.css"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
