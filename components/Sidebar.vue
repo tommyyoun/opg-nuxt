@@ -1,7 +1,7 @@
 <template>
     <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar">
         <div class="list-group">
-          <p class="title">CHAPTERS</p>
+          <p id="ch-label" class="title">CHAPTERS</p>
           <p CLASS="linkTitle">PROGRAMS</p>
           <!---=====================Chapter One Accordion Group==============================--->
           <div class="panel-group" id="accordionMenu" role="tablist" aria-multiselectable="true">
@@ -310,5 +310,14 @@
 </template>
 
 <style>
+@media only screen and (max-width:768px) {
+   #sidebar {
+     margin-top: 1rem;
+   }
+   #ch-label {
+     font-size: 16px !important;
+     text-align: center;
+   }
+  }
 
 </style>
