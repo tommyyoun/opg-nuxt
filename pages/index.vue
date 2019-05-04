@@ -13,7 +13,7 @@
 
 <script>
 import Navbar from '~/components/Navbar.vue'
-import MainContainer from '~/components/MainContainer.vue'
+import MainContainer from '~/components/_MainContainer.vue'
 import Footer from '~/components/Footer.vue'
 
 
